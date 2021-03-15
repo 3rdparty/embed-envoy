@@ -44,6 +44,18 @@ envoy_cc_library(
 )
 
 envoy_cc_library(
+    name = "envoy_main_embed_lib",
+    hdrs = ["embed.h"],
+    external_deps = [
+        "abseil_symbolize",
+    ],
+    deps = [
+        ":envoy_main_common_lib",
+        ":platform_impl_lib",
+    ],
+)
+
+envoy_cc_library(
     name = "envoy_main_entry_lib",
     srcs = ["main.cc"],
     external_deps = [
