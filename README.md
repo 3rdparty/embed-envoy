@@ -1,6 +1,6 @@
 ------------------------------------------------------------------
 > # ATTENTION:
-> ***This is a fork of [Envoy @ 79fdcba](https://github.com/envoyproxy/envoy/tree/79fdcbac87b38383a6185bfd98fe0eed5dbbde88) with some patches for enabling it to be consumed as an embedded library.***
+> ***This is a fork of [Envoy @ 79fdcba](https://github.com/envoyproxy/envoy/tree/79fdcbac87b38383a6185bfd98fe0eed5dbbde88) with some patches for enabling it to be consumed as an embedded library. See this [example](https://github.com/3rdparty/embed-envoy-example) for how to use this fork.***
 ------------------------------------------------------------------
 
 ![Envoy Logo](https://github.com/envoyproxy/artwork/blob/main/PNG/Envoy_Logo_Final_PANTONE.png)
